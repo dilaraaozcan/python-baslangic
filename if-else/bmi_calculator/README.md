@@ -68,8 +68,8 @@ Gayet normal kilodasınız.
 ## 📄 Project Structure
 
 python-projects/
-└── BMICalculator/
-    ├── bmi_calculator.py
+└── bmi_calculator/
+    ├── Main.py
     └── README.md
 
 ---
