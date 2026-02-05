@@ -129,12 +129,7 @@ Concepts:
 ## 📄 Folder Structure
 
 mini-projects/  
-├── collatz_analyzer/  
-├── guess_number_game/  
-├── atm_system/  
-├── geometry_calculator/  
-├── quadratic_equation_solver/  
-├── smart_city_assistant/  
+├── collatz_analyzer/
 └── README.md  
 
 ---
