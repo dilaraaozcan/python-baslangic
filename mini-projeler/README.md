@@ -1,7 +1,7 @@
 # 🧪 Mini Projects — Python Console Applications
 
-This folder contains a collection of **small but complete Python console applications** developed to practice core programming concepts through real, hands-on problems.  
-Each mini project focuses on combining multiple Python fundamentals into a single, working application.
+This folder contains a collection of **small but complete Python console applications** developed to practice core programming concepts through real-world inspired problems.  
+Each mini project combines multiple Python fundamentals into a single, functional application.
 
 These projects represent practical milestones in my Python learning journey.
 
@@ -9,8 +9,8 @@ These projects represent practical milestones in my Python learning journey.
 
 ## 🎯 Purpose of This Folder
 
-- Apply Python fundamentals in real scenarios  
-- Combine conditionals, loops, functions, and data structures  
+- Apply Python fundamentals in realistic scenarios  
+- Combine conditionals, loops, lists, and functions  
 - Build interactive, menu-driven console applications  
 - Practice input validation and error handling  
 - Strengthen algorithmic thinking with complete programs  
@@ -33,7 +33,6 @@ Concepts:
 - Loops  
 - Conditional logic  
 - Numerical algorithms  
-- Runtime statistics  
 
 ---
 
@@ -50,7 +49,6 @@ Concepts:
 - Loops  
 - Conditionals  
 - Game logic  
-- Input validation  
 
 ---
 
@@ -65,7 +63,6 @@ Features:
 Concepts:
 - Conditional statements  
 - User input handling  
-- State management  
 
 ---
 
@@ -80,7 +77,6 @@ Features:
 Concepts:
 - Math operations  
 - Conditional logic  
-- Menu systems  
 
 ---
 
@@ -95,12 +91,11 @@ Features:
 Concepts:
 - Mathematical algorithms  
 - Conditional branching  
-- Numeric formatting  
 
 ---
 
 ### ▶️ Smart City Assistant
-A multi-service assistant application providing taxi fare, electricity bill, and health calculations.
+A multi-service assistant application providing taxi fare, electricity bill, and health-related calculations.
 
 Features:
 - Multi-level menu system  
@@ -110,7 +105,23 @@ Features:
 Concepts:
 - Conditional logic  
 - Menu-driven design  
-- Mathematical modeling  
+
+---
+
+### ▶️ Electricity Bill Calculator
+A console application that calculates an electricity bill based on **daily consumption data**.
+
+Features:
+- Daily consumption input stored in a list  
+- Total and average consumption calculation  
+- Tier-based billing (Low / Medium / High)  
+- Bill calculation using `match–case`  
+
+Concepts:
+- Lists  
+- Loops  
+- Conditional logic  
+- Match–case decision structure  
 
 ---
 
@@ -118,6 +129,7 @@ Concepts:
 
 - Conditional statements (`if`, `elif`, `else`)  
 - Loops (`for`, `while`)  
+- Lists and basic data structures  
 - Functions and modular logic  
 - Input validation  
 - Menu-based applications  
@@ -129,7 +141,13 @@ Concepts:
 ## 📄 Folder Structure
 
 mini-projects/  
-├── collatz_analyzer/
+├── collatz_analyzer/  
+├── guess_number_game/  
+├── atm_system/  
+├── geometry_calculator/  
+├── quadratic_equation_solver/  
+├── smart_city_assistant/  
+├── electricity_bill_calculator/  
 └── README.md  
 
 ---
@@ -146,6 +164,6 @@ mini-projects/
 ## 🎯 Learning Outcome
 
 This folder demonstrates how individual Python concepts come together to form **complete and functional programs**.  
-Each project strengthens problem-solving skills and builds confidence in writing structured, interactive Python applications.
+Each mini project strengthens problem-solving skills and builds confidence in writing structured, interactive Python applications.
 
 ---
