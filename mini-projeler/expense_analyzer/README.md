@@ -112,6 +112,6 @@ mini-projects/
 ## 🎯 Learning Outcome
 
 This project demonstrates how structured financial data can be modeled using Python dictionaries and lists.  
-It strengthens data aggregation, percentage analysis, and category-based reporting skills in a practical scenario.
+It strengthens data aggregation, percentage analysis and category-based reporting skills in a practical scenario.
 
 ---
