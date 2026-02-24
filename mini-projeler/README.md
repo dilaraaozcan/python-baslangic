@@ -1,169 +1,199 @@
-# 🧪 Mini Projects — Python Console Applications
+# 🚀 Mini Projects — Python Console Applications
 
-This folder contains a collection of **small but complete Python console applications** developed to practice core programming concepts through real-world inspired problems.  
-Each mini project combines multiple Python fundamentals into a single, functional application.
+This folder contains practical, console-based mini projects developed while learning Python fundamentals.  
+Each project focuses on applying core programming concepts to real-world inspired problems.
 
-These projects represent practical milestones in my Python learning journey.
+The goal of this section is not just syntax practice — but building structured, interactive systems using clean logic and organized data structures.
 
 ---
 
 ## 🎯 Purpose of This Folder
 
-- Apply Python fundamentals in realistic scenarios  
-- Combine conditionals, loops, lists, and functions  
-- Build interactive, menu-driven console applications  
-- Practice input validation and error handling  
-- Strengthen algorithmic thinking with complete programs  
+- Reinforce Python fundamentals through hands-on projects  
+- Practice real-world problem modeling  
+- Improve algorithmic thinking  
+- Strengthen data structure usage (lists, dictionaries)  
+- Build structured, portfolio-ready mini systems  
 
 ---
 
-## 📂 Included Mini Projects
+## 📂 Included Projects
 
 ### ▶️ Collatz Analyzer
-An analysis tool based on the **Collatz Conjecture (3n + 1 problem)**.
+Analyzes a number using the 3n+1 (Collatz Conjecture) sequence.
 
 Features:
-- Step-by-step Collatz sequence generation  
+- Step-by-step sequence generation  
 - Total step count  
-- Maximum value tracking  
-- Odd / even operation statistics  
-- Safe exit handling  
+- Maximum value reached  
+- Odd / even step tracking  
+- Input validation and safe exit  
 
 Concepts:
-- Loops  
-- Conditional logic  
-- Numerical algorithms  
+- While loops  
+- Mathematical logic  
+- State tracking  
+- Exception handling  
 
 ---
 
-### ▶️ Guess Number Game
-An interactive number guessing game where the user tries to guess a randomly generated number.
+### ▶️ Mini Hospital Scheduler
+A console-based hospital appointment booking simulation system that dynamically manages departments, doctors, and available time slots.
 
 Features:
-- Random number generation  
-- User guidance (UP / DOWN / Very Close)  
-- Input range validation  
-- Automatic termination after repeated invalid input  
+- Complaint keyword analysis (e.g., "kalp", "ateş", "diz", "baş")
+- Automatic department matching using a mapping dictionary
+- Nested dictionary structure for departments → doctors → available time slots
+- Dynamic doctor availability filtering
+- Time slot booking with automatic removal of selected slots
+- Input validation using `try-except`
+- Repeat appointment option
 
 Concepts:
-- Loops  
-- Conditionals  
-- Game logic  
+- Nested dictionaries
+- List filtering
+- String matching with `in`
+- State mutation (removing booked slots)
+- Loop-based interactive system
+- Defensive programming (input validation)
+
+This project represents a higher-level structural design compared to basic CRUD mini apps because it simulates a real-world scheduling workflow with dynamic data updates.
 
 ---
 
-### ▶️ ATM System
-A basic ATM simulation that allows the user to deposit money, withdraw money, and check balance.
+### ▶️ Simple Library System
+A basic library management console app.
 
 Features:
-- Menu-based system  
-- Balance updates  
-- Insufficient balance checks  
+- Add books  
+- List books  
+- Search books  
+- Borrow books (status update)  
 
 Concepts:
-- Conditional statements  
-- User input handling  
+- List of dictionaries  
+- Enumeration  
+- Dynamic state updates  
 
 ---
 
-### ▶️ Geometry Calculator
-A console application that calculates areas and perimeters of geometric shapes.
+### ▶️ To-Do App
+A simple task management system.
 
 Features:
-- Shape selection via menu  
-- Mathematical formula application  
-- Input validation  
+- Add tasks  
+- List tasks  
+- Delete tasks  
+- Status tracking  
 
 Concepts:
-- Math operations  
-- Conditional logic  
+- Boolean state management  
+- List indexing  
+- Try-except validation  
 
 ---
 
-### ▶️ Quadratic Equation Solver
-A solver for quadratic equations of the form **ax² + bx + c = 0**.
+### ▶️ Expense Analyzer (Budget Calculator)
+Category-based spending tracker.
 
 Features:
-- Linear equation detection  
-- Discriminant (delta) calculation  
-- Real and complex root handling  
+- Multiple spending categories  
+- Daily expense tracking  
+- Category totals  
+- Percentage distribution  
+- Highest spending category detection  
 
 Concepts:
-- Mathematical algorithms  
-- Conditional branching  
+- Dictionaries with list values  
+- Dictionary comprehensions  
+- Aggregate calculations  
 
 ---
 
-### ▶️ Smart City Assistant
-A multi-service assistant application providing taxi fare, electricity bill, and health-related calculations.
+### ▶️ Electric Bill Calculator
+Calculates total electricity consumption and billing tier.
 
 Features:
-- Multi-level menu system  
-- Different calculation modules  
-- User authentication (PIN)  
+- Multi-day consumption tracking  
+- Average usage calculation  
+- Tier-based pricing  
+- Match-case billing logic  
 
 Concepts:
-- Conditional logic  
-- Menu-driven design  
+- List accumulation  
+- Conditional pricing  
+- Pattern matching  
 
 ---
 
-### ▶️ Electricity Bill Calculator
-A console application that calculates an electricity bill based on **daily consumption data**.
+### ▶️ Student Grade Analyzer
+Analyzes student grades and generates summary statistics.
 
 Features:
-- Daily consumption input stored in a list  
-- Total and average consumption calculation  
-- Tier-based billing (Low / Medium / High)  
-- Bill calculation using `match–case`  
+- Average calculation  
+- Highest and lowest grade detection  
+- Pass / fail classification  
+- List traversal  
 
 Concepts:
+- Aggregation logic  
+- Conditional classification  
+- Loop-based data analysis  
+
+---
+
+## 🧠 Core Concepts Covered
+
 - Lists  
-- Loops  
-- Conditional logic  
-- Match–case decision structure  
-
----
-
-## 🧠 Python Concepts Practiced
-
-- Conditional statements (`if`, `elif`, `else`)  
+- Dictionaries  
+- Nested data structures  
 - Loops (`for`, `while`)  
-- Lists and basic data structures  
-- Functions and modular logic  
-- Input validation  
-- Menu-based applications  
+- Conditionals (`if-elif-else`)  
+- Pattern matching (`match-case`)  
+- Exception handling (`try-except`)  
 - Mathematical computations  
-- Algorithm design  
+- Dynamic state management  
 
 ---
 
-## 📄 Folder Structure
+## 📂 Folder Structure
 
 mini-projects/  
 ├── collatz_analyzer/  
-├── guess_number_game/  
-├── atm_system/  
-├── geometry_calculator/  
-├── quadratic_equation_solver/  
-├── smart_city_assistant/  
-├── electricity_bill_calculator/  
-└── README.md  
+├── mini_hospital_scheduler/  
+├── simple_library_system/  
+├── to_do_app/  
+├── expense_analyzer/  
+├── electric_bill_calculator/  
+├── student_grade_analyzer/  
+└── ...  
+
+Each project contains:
+- `main.py`  
+- `README.md`  
 
 ---
 
-## 🚀 How to Run
+## ▶️ How to Run
 
-1. Navigate to a mini project folder  
-2. Run the Python file:
-   python main.py  
-3. Follow the instructions shown in the console  
+Navigate into any project folder and run:
+
+python main.py
+
+Each application runs independently.
 
 ---
 
-## 🎯 Learning Outcome
+## 🌱 Learning Philosophy
 
-This folder demonstrates how individual Python concepts come together to form **complete and functional programs**.  
-Each mini project strengthens problem-solving skills and builds confidence in writing structured, interactive Python applications.
+These projects are intentionally designed as small but structured systems.  
+The focus is:
+
+- Clean logic  
+- Clear menu flow  
+- Proper input validation  
+- Organized data modeling  
+
+They represent stepping stones toward building larger, more complex applications.
 
 ---
