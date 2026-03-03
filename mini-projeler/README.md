@@ -142,6 +142,43 @@ Concepts:
 
 ---
 
+### ▶️ File Organizer
+Organizes files in a selected folder by extension type.
+
+Features:
+- Menu-driven folder selection  
+- Extension-based categorization  
+- Automatic folder creation (PDF / Images / Python / Text / Others)  
+- Moves files into categorized folders  
+- Reports total moved file count  
+
+Concepts:
+- `os` and `shutil` modules  
+- File system automation  
+- Path handling with `os.path.join()`  
+- Conditional classification  
+- Exception handling  
+
+---
+
+### ▶️ Stock Control App
+A dictionary-based inventory management system.
+
+Features:
+- Add products with stock quantities  
+- List current stock  
+- Delete products  
+- Update stock by increasing quantity  
+- Input validation with `try-except`  
+
+Concepts:
+- Dictionaries (`dict`)  
+- CRUD operations  
+- Menu-based console flow  
+- State updates (incrementing stock)  
+
+---
+
 ## 🧠 Core Concepts Covered
 
 - Lists  
@@ -153,6 +190,7 @@ Concepts:
 - Exception handling (`try-except`)  
 - Mathematical computations  
 - Dynamic state management  
+- Basic file system scripting (`os`, `shutil`)  
 
 ---
 
@@ -166,6 +204,8 @@ mini-projects/
 ├── expense_analyzer/  
 ├── electric_bill_calculator/  
 ├── student_grade_analyzer/  
+├── file_organizer/  
+├── stock_control_app/  
 └── ...  
 
 Each project contains:
